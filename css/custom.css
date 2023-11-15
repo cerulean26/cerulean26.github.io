@@ -41,7 +41,7 @@
 
 
 
-  /* 日间模式不生效 */
+/* 日间模式不生效 */
 [data-theme="light"] #site-name,
 [data-theme="light"] #site-title,
 [data-theme="light"] #site-subtitle,
@@ -160,6 +160,7 @@
 }
 
 
+
 /* 侧边栏个人信息卡片动态渐变色 */
 #aside-content > .card-widget.card-info {
     background: linear-gradient(
@@ -225,7 +226,8 @@
 
 
 
-  /* 文章页H1-H6图标样式效果 */
+
+/* 文章页H1-H6图标样式效果 */
 /* 控制风车转动速度 4s那里可以自己调节快慢 */
 h1::before,
 h2::before,
@@ -312,4 +314,10 @@ h6::before {
   color: var(--theme-color);
   -webkit-animation: ccc 6s linear infinite;
   animation: ccc 6s linear infinite;
+}
+
+/* 翻页按钮居中 */
+#pagination {
+  width: 100%;
+  margin: auto;
 }
